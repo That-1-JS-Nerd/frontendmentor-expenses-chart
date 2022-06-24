@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto:wght@300;400&display=swap');
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    padding: 0;
+}
+
+body { 
+    background-color: hsl(27, 66%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100ww;
+}
+
+.container {
+    display: flex;
+    margin: 10px auto;
+    flex-direction: column;
+    width: 800px;
+}
+
+.balance,
+.bar {
+    background-color: hsl(10, 79%, 65%);
+}
+
+.balance,
+.main {
+    width: 100%;
+}
+
+.balance {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border-radius: 15px;
+    padding: 20px 40px;
+    margin-bottom: 22px;
+}
+
+.title-sect > .title {
+    font-size: 22px;
+}
+
+.title-sect > .price {
+    margin: 5px 0;
+    font-size: 40px;
+}
+
+.main {
+    color: hsl(25, 47%, 15%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.bar-sect .bar {
+    width: 70px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.bar-sect p {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.tooltip {
+    display: none;
+    padding: 5px 0;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    margin: 15px 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 70px;
+}
+
+.graph {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.spending {
+    padding: 20px;
+}
+
+.spending h1 {
+    font-size: 35px;
+}
+
+.total {
+    padding: 20px;
+}
+
+.total h1 {
+    font-size: 90px;
+}
+
+.total p {
+    color: #a5a5a5;
+    font-size: 30px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.numbers > .scd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h-line {
+    background-color: rgb(182, 182, 182);
+    height: 1px;
+    width: 90%;
+    margin: 10px auto;
+    border: none;
+}
