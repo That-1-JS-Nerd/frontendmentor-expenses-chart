@@ -58,12 +58,11 @@ function createGraph() {
   }
 
   const bars = document.querySelectorAll('.bar');
-  const tooltips = document.querySelectorAll('.tooltip');
 
   bars.forEach(
     (bar, idx) => {
-      bar.style.height = `${charData[idx].amount * 4}px`;
-      if (tooltips[idx].textContent === `$${hVal}`) {
+      bar.style.height = `${charData[idx].amount * 3}px`;
+      if (charData[idx].amount === hVal) {
         bar.style.backgroundColor = `hsl(186, 34%, 60%)`;
       }
   });
@@ -87,4 +86,12 @@ function main () {
     });
 }
 
+function setDimentions() {
+  const win = screen;
+  const body = document.querySelector('body');
+
+  body.style.height = `${screen.height}px`;
+}
+
+setDimentions();
 main();

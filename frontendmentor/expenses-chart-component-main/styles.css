@@ -16,15 +16,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100ww;
 }
 
 .container {
     display: flex;
     margin: 10px auto;
     flex-direction: column;
-    width: 800px;
+    width: 700px;
 }
 
 .balance,
@@ -48,12 +46,12 @@ body {
 }
 
 .title-sect > .title {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .title-sect > .price {
     margin: 5px 0;
-    font-size: 40px;
+    font-size: 33px;
 }
 
 .main {
@@ -64,7 +62,7 @@ body {
 }
 
 .bar-sect .bar {
-    width: 70px;
+    width: 65px;
     border-radius: 5px;
     padding: 5px;
 }
@@ -82,35 +80,35 @@ body {
     border-radius: 5px;
     margin: 15px 0;
     background: rgba(0, 0, 0, 0.5);
-    width: 70px;
+    width: 65px;
 }
 
 .graph {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    height: 300px;
+    height: 260px;
 }
 
 .spending {
-    padding: 20px;
+    padding: 16px;
 }
 
 .spending h1 {
-    font-size: 35px;
+    font-size: 32px;
 }
 
 .total {
-    padding: 20px;
+    padding: 16px;
 }
 
 .total h1 {
-    font-size: 90px;
+    font-size: 55px;
 }
 
 .total p {
     color: #a5a5a5;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .numbers {
